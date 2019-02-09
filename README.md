@@ -32,6 +32,7 @@ Please feel free to add/edit the list and this readme.
 - [ ] Application page/tool for kids to apply for scholarship. Possibly blocked by Firestore setup. Or we might just use Google form.
 - [ ] Profile library/page of curently sponsored kids.
 - [ ] Footer. With social media links.
+- [ ] Accessibility.
 
 ### BE or BE-ish
 

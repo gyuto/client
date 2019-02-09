@@ -1,16 +1,16 @@
 This is the client repo for rebuidling these 3 websites:
 
-- Gyuto Foundation
-- Delek Children's Foundation
-- Gyuto Minnesota
+- [Gyuto Foundation](http://gyutofoundation.org)
+- [Delek Children's Foundation](http://delekchildrenfoundation.org)
+- [Gyuto Minnesota](http://gyuto.us)
 
 The components shared across all 3 sites are on the master branch.
 
-We started with Gatsby's boilerplate. Readme file here.
+We started with Gatsby's boilerplate. Readme file [here](https://github.com/gyuto/client/blob/master/README-gatsby.md).
 
-The new Delek Children's Foundation is deployed here.
+The new Delek Children's Foundation is deployed [here](https://dcf-master.netlify.com/).
 
-The new Gyuto Minnesota is deployed here.
+The new Gyuto Minnesota is deployed [here](http://gyutominnesota.org).
 
 ## To-do list
 

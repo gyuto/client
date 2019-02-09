@@ -8,9 +8,9 @@ The components shared across all 3 sites are on the master branch.
 
 We started with Gatsby's boilerplate. Readme file [here](https://github.com/gyuto/client/blob/master/README-gatsby.md).
 
-The new Delek Children's Foundation is deployed [here](https://dcf-master.netlify.com/).
+The new Delek Children's Foundation is deployed [here](https://dcf-master.netlify.com/). It would be automatically deployed when you push to the `dcf-master` branch.
 
-The new Gyuto Minnesota is deployed [here](http://gyutominnesota.org).
+The new Gyuto Minnesota is deployed [here](http://gyutominnesota.org). It would be automatically deployed when you push to the `minnesota-master` branch.
 
 ## To-do list
 

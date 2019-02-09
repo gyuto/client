@@ -1,9 +1,8 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "delek-childrens-foundation",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "Non-profit organization dedicated to providing children with education and healthcare",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
     "gatsby": "^2.0.111",
     "gatsby-image": "^2.0.29",
@@ -17,10 +16,11 @@
     "prop-types": "^15.6.2",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
-    "react-helmet": "^5.2.0"
+    "react-helmet": "^5.2.0",
+    "styled-components": "^4.1.3"
   },
   "keywords": [
-    "gatsby"
+    "gyuto"
   ],
   "license": "MIT",
   "scripts": {
@@ -32,9 +32,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
-  },
-  "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/gyuto/client"
   }
 }

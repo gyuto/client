@@ -2,7 +2,13 @@ import React from "react"
 
 export default ({ event }) => {
   return (
-    <div style={{}}>
+    <div
+      style={
+        {
+          //  display: "inline-block"
+        }
+      }
+    >
       <div
         style={{
           width: 400,

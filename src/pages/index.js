@@ -22,7 +22,7 @@ const IndexPage = () => (
         2601 Taylor St. NE, Minneapolis, MN 55418,
       </a>{" "}
       Phone number: (612) 724-3124. Email:
-      <a href="mailto:info@gyutofoundation.org">info@gyutofoundation.org</a>.
+      <a href="mailto:gyuto.us@gmail.com">gyuto.us@gmail.com</a>.
     </p>
 
     <p>

@@ -4,9 +4,11 @@ import React from "react"
 
 const Header = ({ siteTitle }) => (
   <header
-    className="bg-wilderness"
+    className="bg-scarlet"
     style={{
+      textAlign: "center",
       marginBottom: `1.45rem`,
+      borderBottom: "2px solid gold",
     }}
   >
     <div

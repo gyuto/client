@@ -28,13 +28,13 @@ export default ({ event }) => {
           <img src={event.pic} alt={event.name} />
         </Img>
       </div>
-      <h3
+      <h2
         style={{
           margin: "10px 0",
         }}
       >
         {event.name}
-      </h3>
+      </h2>
       <p>
         <b>{event.date}</b>, {event.time}
         <br />

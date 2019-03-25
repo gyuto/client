@@ -16,7 +16,6 @@ $mobile: 560px;
 .card {
   margin: 10px;
   background-color: white;
-  // box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.1);
   border-radius: 5px;
 }
 
@@ -71,6 +70,7 @@ template {
 a {
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
+  color: $jeans;
 }
 a:active,
 a:hover {

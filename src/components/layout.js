@@ -2,6 +2,7 @@ import React from "react"
 import PropTypes from "prop-types"
 import { StaticQuery, graphql } from "gatsby"
 import Header from "./header"
+import Footer from "./footer"
 import "../styles/core.scss"
 
 const Layout = ({ children }) => (
@@ -27,14 +28,8 @@ const Layout = ({ children }) => (
           }}
         >
           <main>{children}</main>
-          <footer>
-            © {new Date().getFullYear()},{" "}
-            <a href="http://gyutofoundation.org">Gyuto Foundation</a>,{" "}
-            <a href="http://delekchildrenfoundation.org">
-              Delek Children's Foundation
-            </a>
-          </footer>
         </div>
+        <Footer />
       </>
     )}
   />

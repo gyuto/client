@@ -13,12 +13,14 @@ const EventContainer = styled.section`
 `
 export default () => {
   return (
-    <div
-      style={{
-        textAlign: "center",
-      }}
-    >
-      <h2>Upcoming Events</h2>
+    <div>
+      <h2
+        style={{
+          textAlign: "center",
+        }}
+      >
+        Upcoming Events
+      </h2>
       <EventContainer>
         {events.map(event => {
           return <Event event={event} key={event.name} />

@@ -1,4 +1,12 @@
 import React from "react"
+import styled from "styled-components"
+
+const Img = styled.section`
+  opacity: 0.8;
+  &:hover {
+    opacity: 1;
+  }
+`
 
 export default ({ event }) => {
   return (
@@ -16,7 +24,9 @@ export default ({ event }) => {
           alignItems: "center",
         }}
       >
-        <img src={event.pic} alt={event.name} />
+        <Img>
+          <img src={event.pic} alt={event.name} />
+        </Img>
       </div>
       <h3
         style={{

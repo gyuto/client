@@ -3,6 +3,7 @@ import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import longLing from "../images/long-ling.jpg"
+import Events from "../components/events"
 
 const IndexPage = () => (
   <Layout>
@@ -10,6 +11,7 @@ const IndexPage = () => (
       title="Home"
       keywords={[`Gyuto`, `Gyuto Minnesota`, `Gyuto Foundation`]}
     />
+    <Events />
     <p>
       Gyuto Wheel of Dharma Monastery will be celebrating it’s 25th Anniversary
       on Saturday, June 29, 2019. Time: 10 am - 4 pm Everyone is invited. Venue

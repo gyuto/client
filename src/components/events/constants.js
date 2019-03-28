@@ -17,7 +17,7 @@ export const events = [
     pic: center,
   },
   {
-    name: "Amitayus Long Ling",
+    name: "Amitayus Long Life Initiation by H.E. Ling Rinpoche",
     date: "Sunday, June 30, 2019",
     time: "10 am - 12 pm",
     location: {

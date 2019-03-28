@@ -8,8 +8,7 @@ export default () => (
     }}
   >
     <p>Our site is under construction. Please check back later.</p>
-    Reach us at{" "}
-    <a href="mailto:info@gyutofoundation.org">info@gyutofoundation.org</a>.
+    Reach us at <a href="mailto:gyuto.us@gmail.com">gyuto.us@gmail.com</a>.
     <p>
       Visit us at{" "}
       <a
@@ -22,6 +21,5 @@ export default () => (
     </p>
     © {new Date().getFullYear()},{" "}
     <a href="http://gyutofoundation.org">Gyuto Foundation</a>,{" "}
-    <a href="http://delekchildrenfoundation.org">Delek Children's Foundation</a>
   </footer>
 )

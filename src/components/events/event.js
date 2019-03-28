@@ -30,7 +30,8 @@ export default ({ event }) => {
       </div>
       <h2
         style={{
-          margin: "10px 0",
+          margin: "20px 0",
+          lineHeight: 1.3,
         }}
       >
         {event.name}

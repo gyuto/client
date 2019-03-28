@@ -30,11 +30,13 @@ const Header = ({ siteTitle }) => (
         alt="Gyuto Wheel of Dharma Monastery"
       />
     </div>
+
     <div
       style={{
         maxWidth: 960,
         padding: `1.45rem 1.0875rem`,
         textAlign: "center",
+        tibetanMachineUni: "!important",
       }}
     >
       <h1 style={{ margin: 0 }}>
@@ -45,6 +47,8 @@ const Header = ({ siteTitle }) => (
             textDecoration: `none`,
           }}
         >
+          འདིར་བོད་སྐད་འབྲི།
+          <br />
           {siteTitle}
         </Link>
       </h1>

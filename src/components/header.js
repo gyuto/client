@@ -1,23 +1,33 @@
 import React from "react"
 import { Link } from "gatsby"
+import styled from "styled-components"
 import PropTypes from "prop-types"
 import logo from "../images/gyuto-logo.png"
 
+const HeaderText = styled.section`
+  text-align: left;
+  @media (max-width: 799px) {
+    text-align: center;
+  }
+`
+const HeaderDiv = styled.section`
+  margin-bottom: 1.45rem;
+  border-bottom: 2px solid gold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  @media (max-width: 799px) {
+    padding-bottom: 10px;
+  }
+`
+
 const Header = ({ siteTitle }) => (
-  <header
-    className="bg-scarlet"
-    style={{
-      marginBottom: `1.45rem`,
-      borderBottom: "2px solid gold",
-      display: "flex",
-      justifyContent: "center",
-      alignItems: "center",
-      flexWrap: "wrap",
-    }}
-  >
+  <HeaderDiv className="bg-scarlet" style={{}}>
     <div
       style={{
         width: 150,
+        marginRight: 20,
         height: 150,
       }}
     >
@@ -31,29 +41,33 @@ const Header = ({ siteTitle }) => (
       />
     </div>
 
-    <div
-      style={{
-        maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
-        textAlign: "center",
-        tibetanMachineUni: "!important",
-      }}
-    >
+    <HeaderText>
       <h1 style={{ margin: 0 }}>
         <Link
           to="/"
           style={{
             color: `white`,
             textDecoration: `none`,
+            lineHeight: 1.5,
           }}
         >
-          འདིར་བོད་སྐད་འབྲི།
-          <br />
+          རྒྱུད་སྟོད་ཆོས་འཁོར་དགོན་།
+        </Link>
+      </h1>
+      <h1 style={{ margin: 0 }}>
+        <Link
+          to="/"
+          style={{
+            color: `white`,
+            textDecoration: `none`,
+            lineHeight: 1.5,
+          }}
+        >
           {siteTitle}
         </Link>
       </h1>
-    </div>
-  </header>
+    </HeaderText>
+  </HeaderDiv>
 )
 
 Header.propTypes = {

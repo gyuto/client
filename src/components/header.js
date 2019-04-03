@@ -21,16 +21,18 @@ const HeaderDiv = styled.section`
     padding-bottom: 10px;
   }
 `
+const Logo = styled.section`
+  width: 150px;
+  margin-right: 20px;
+  height: 150jpx;
+  @media (max-width: 799px) {
+    margin-right: 0;
+  }
+`
 
 const Header = ({ siteTitle }) => (
   <HeaderDiv className="bg-scarlet" style={{}}>
-    <div
-      style={{
-        width: 150,
-        marginRight: 20,
-        height: 150,
-      }}
-    >
+    <Logo>
       <img
         style={{
           height: 130,
@@ -39,7 +41,7 @@ const Header = ({ siteTitle }) => (
         src={logo}
         alt="Gyuto Wheel of Dharma Monastery"
       />
-    </div>
+    </Logo>
 
     <HeaderText>
       <h1 style={{ margin: 0 }}>

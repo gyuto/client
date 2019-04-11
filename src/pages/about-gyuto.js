@@ -5,7 +5,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import center from "../images/center-interior.jpg"
 
-const SecondPage = () => (
+const About = () => (
   <Layout>
     <SEO title="Gyuto Wheel of Dharma Monastery | About" />
     <h1>About Gyuto</h1>
@@ -55,4 +55,4 @@ const SecondPage = () => (
   </Layout>
 )
 
-export default SecondPage
+export default About

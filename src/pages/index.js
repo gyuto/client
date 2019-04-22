@@ -5,6 +5,18 @@ import SEO from "../components/seo"
 import Events from "../components/events"
 import alterPic from "../images/alter-close-medium.jpg"
 
+const TextStyle = styled.div`
+  color: white;
+  position: absolute;
+  bottom: 30px;
+  padding: 30px;
+`
+const HiddenOnMobile = styled.section`
+  @media (max-width: 499px) {
+    display: none;
+  }
+`
+
 const IndexPage = () => (
   <Layout>
     <SEO
@@ -17,21 +29,17 @@ const IndexPage = () => (
         position: "relative",
       }}
     >
-      <div
-        style={{
-          position: "absolute",
-          bottom: 30,
-          color: "white",
-          padding: 20,
-        }}
-      >
+      <TextStyle>
         Gyuto Wheel of Dharma Monastery was created with the guidance and
         blessing of His Holiness the Fourteenth Dalai Lama of Tibet to share the
-        wisdom teachings of Tibetan Buddhism. His Holiness bestowed the
-        Monastery's mission and its name "Cho-Kor-Gon", Wheel of Dharma. We are
-        located in Northeast Minneapolis, and all are welcome at our public
-        events and weekly teachings.
-      </div>
+        wisdom teachings of Tibetan Buddhism.
+        <HiddenOnMobile>
+          His Holiness bestowed the Monastery's mission and its name
+          "Cho-Kor-Gon", Wheel of Dharma. We are located in Northeast
+          Minneapolis, and all are welcome at our public events and weekly
+          teachings.
+        </HiddenOnMobile>
+      </TextStyle>
       <img
         style={{
           minWidth: "100%",

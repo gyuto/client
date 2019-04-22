@@ -3,7 +3,7 @@ import styled from "styled-components"
 
 const Img = styled.section`
   opacity: 0.8;
-  &:hover {
+  :hover {
     opacity: 1;
   }
 `

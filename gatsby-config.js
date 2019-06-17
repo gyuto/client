@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
     title: `Gyuto Wheel of Dharma Monastery`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    description: `Gyuto Wheel of Dharma Monastery is the first Western branch of the famous Gyuto Tantric University, one of only two historical seats of high tantric learning in the Tibetan Buddhist monastic system. Gyuto Tantric University is based in exile in Dharamsala (Sidbhari), India.`,
+    author: `@debelopumento`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -15,6 +15,7 @@ module.exports = {
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
+    "gatsby-plugin-sass",
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
@@ -25,6 +26,16 @@ module.exports = {
         theme_color: `#663399`,
         display: `minimal-ui`,
         icon: `src/images/favicon.png`, // This path is relative to the root of the site.
+      },
+    },
+    {
+      resolve: `gatsby-plugin-prefetch-google-fonts`,
+      options: {
+        fonts: [
+          {
+            family: `Poppins`,
+          },
+        ],
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality

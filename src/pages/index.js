@@ -1,26 +1,55 @@
 import React from "react"
-
+import styled from "styled-components"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import Events from "../components/events"
+import alterPic from "../images/alter-close-medium.jpg"
+
+const TextStyle = styled.div`
+  color: white;
+  position: absolute;
+  bottom: 30px;
+  padding: 30px;
+`
+const HiddenOnMobile = styled.section`
+  @media (max-width: 499px) {
+    display: none;
+  }
+`
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
-    <p>Our site is under construction. Please check back later.</p>
-    <p>
-      Reach us at{" "}
-      <a href="mailto:info@gyutofoundation.org">info@gyutofoundation.org</a>.
-    </p>
-    <p>
-      Visit us at{" "}
-      <a
-        rel="noopener noreferrer"
-        target="_blank"
-        href="https://www.google.com/maps/place/2601+NE+Taylor+St,+Minneapolis,+MN+55418/@45.015186,-93.245637,17z/data=!3m1!4b1!4m5!3m4!1s0x52b32dc224fbe3cb:0x9641501349061f2c!8m2!3d45.015186!4d-93.243443"
-      >
-        2601 Taylor St. NE, Minneapolis, MN 55418,
-      </a>
-    </p>
+    <SEO
+      title="Home"
+      keywords={[`Gyuto`, `Gyuto Minnesota`, `Gyuto Foundation`]}
+    />
+    <div
+      style={{
+        marginBottom: 30,
+        position: "relative",
+      }}
+    >
+      <TextStyle>
+        Gyuto Wheel of Dharma Monastery was created with the guidance and
+        blessing of His Holiness the Fourteenth Dalai Lama of Tibet to share the
+        wisdom teachings of Tibetan Buddhism.
+        <HiddenOnMobile>
+          His Holiness bestowed the Monastery's mission and its name
+          "Cho-Kor-Gon", Wheel of Dharma. We are located in Northeast
+          Minneapolis, and all are welcome at our public events and weekly
+          teachings.
+        </HiddenOnMobile>
+      </TextStyle>
+      <img
+        style={{
+          minWidth: "100%",
+          minHeight: "100%",
+        }}
+        src={alterPic}
+        alt="Alter"
+      />
+    </div>
+    <Events />
   </Layout>
 )
 
